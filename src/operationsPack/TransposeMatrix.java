@@ -8,7 +8,7 @@ public static int[][] transpose(int arr[][])
 	{
 		for(int j=0;j<arr.length;j++)
 		{
-			arr[i][j]=arr[j][i];
+			result[i][j]=arr[j][i]; //minor correction 
 			
 		}
 	}
